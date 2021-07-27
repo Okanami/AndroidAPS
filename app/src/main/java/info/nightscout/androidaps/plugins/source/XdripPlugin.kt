@@ -54,7 +54,7 @@ class XdripPlugin @Inject constructor(
     }
 
     private fun setSource(source: String) {
-        advancedFiltering = source.contains("G5 Native") || source.contains("G6 Native") || source.contains("Tomato")
+        advancedFiltering = source.contains("G5 Native") || source.contains("G6 Native") || source.contains("Tomato") || source.contains("LimiTTer")
     }
 
     override fun getSensorBatteryLevel(): Int {
