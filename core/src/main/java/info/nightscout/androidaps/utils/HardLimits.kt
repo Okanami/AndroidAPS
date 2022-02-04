@@ -36,7 +36,7 @@ class HardLimits @Inject constructor(
         private const val ADULT = 2
         private const val RESISTANT_ADULT = 3
         private const val PREGNANT = 4
-        private val MAX_BOLUS = doubleArrayOf(5.0, 10.0, 17.0, 25.0, 60.0)
+        private val MAX_BOLUS = doubleArrayOf(5.0, 10.0, 25.0, 35.0, 60.0)
 
         // Very Hard Limits Ranges
         // First value is the Lowest and second value is the Highest a Limit can define
@@ -48,7 +48,7 @@ class HardLimits @Inject constructor(
         val VERY_HARD_LIMIT_TEMP_MIN_BG = intArrayOf(72, 180)
         val VERY_HARD_LIMIT_TEMP_MAX_BG = intArrayOf(72, 270)
         val VERY_HARD_LIMIT_TEMP_TARGET_BG = intArrayOf(72, 200)
-        val MIN_DIA = doubleArrayOf(5.0, 5.0, 5.0, 5.0, 5.0)
+        val MIN_DIA = doubleArrayOf(5.0, 5.0, 3.0, 3.0, 5.0)
         val MAX_DIA = doubleArrayOf(9.0, 9.0, 9.0, 9.0, 10.0)
         val MIN_IC = doubleArrayOf(2.0, 2.0, 2.0, 2.0, 0.3)
         val MAX_IC = doubleArrayOf(100.0, 100.0, 100.0, 100.0, 100.0)
