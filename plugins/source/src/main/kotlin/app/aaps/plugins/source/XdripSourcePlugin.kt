@@ -39,7 +39,7 @@ class XdripSourcePlugin @Inject constructor(
     aapsLogger, rh, injector
 ), BgSource, XDripSource {
 
-    private var advancedFiltering = false
+    private var advancedFiltering = true
     override var sensorBatteryLevel = -1
 
     override fun advancedFilteringSupported(): Boolean = advancedFiltering
